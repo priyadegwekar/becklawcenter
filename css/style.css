@@ -1,0 +1,608 @@
+/*  -----------------Body ----------------- */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+html {
+    scroll-behavior: smooth;
+  }
+ 
+
+/*  -----------------Navbar -----------------   */
+.navbar-toggler {
+	/* padding: .25rem .75rem; */
+	/* font-size: 1.25rem; */
+	/* line-height: 1; */
+	background-color: #161C56 !important;
+	border: none !important;
+	/* border-radius: .25rem; */
+	transition: box-shadow .15s ease-in-out !important;
+	color: white !important;
+}
+.navbar-brand img {
+	  padding-top: inherit;
+}
+ul.navbar-nav.ml-auto {
+    margin-left: auto;
+}
+/* a.nav-link {
+    color: white;
+} */
+div#navbarNav a {
+     margin: 26px;
+    color: white;
+}
+a.nav-link:hover {
+    /* background-color: black; */
+    font-weight: bold;
+    color: white;
+}
+a.nav-link.active {
+    border-bottom: 3px solid white;
+    font-weight: bold;
+}
+
+.w-100{
+  margin-bottom: 5%;
+}
+
+
+/*----------------- Banner----------------- */
+.banner-section {
+    background-image: url(../images/BeckLawCenter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 17%;
+}
+.banner-text h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 4.0rem;
+}
+.banner-text p {
+    color: white;
+    font-size: 22px;
+}
+.banner-text{
+    margin-top: 10%;
+}
+button.btn.btn-light {
+    color: #161C56;
+    border-radius: .25rem;
+    padding: 4px 24px;
+}
+.btn-light:hover {
+	color: white !important;
+	background-color: #161C56;
+	/* border-color: none; */
+	/* color: white; */
+}
+
+
+
+/*----------------- Owl Carousel----------------- */
+.owl-carousel .owl-item img {
+    width: unset !important;
+}
+
+.slider {
+  margin-bottom: 30px;
+  position: relative;
+}
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.15);
+  opacity: 1;
+  background: white; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, white, white); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, white, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: black ;
+}
+.slider-card {
+  background: #fff;
+  padding: 0px 0px;
+  margin: 50px 15px 90px 15px;
+  border-radius: 5px;
+  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+  transform: scale(0.9);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.slider-card img {
+  border-radius: 5px 5px 0px 0px;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-dots {
+  text-align: center;
+}
+.owl-dots .owl-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: #ccc !important;
+  margin-left: 3px;
+  margin-right: 3px;
+  outline: none;
+}
+.owl-dots .owl-dot.active {
+  background: #f44336 !important;
+}
+#slider-section {
+	position: relative;
+	margin-top: -150px;
+}
+
+
+
+/*----------------- Pratice Area Card Box----------------- */
+.card-box h1 {
+    color: #161C56;
+}
+.slider-card h5 {
+    color: #161C56;
+}
+.card-box{
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+	transform: scale(1.0);
+  border-radius: 20px;
+  /* opacity: 0.5; */
+  /* transition: all 0.3s; */
+  background: #fff;
+	padding: 50px 0px 3px 0px;
+}
+/* Laptop Empty */
+#laptop-empty img{
+  width: 90%;
+	height: 100%;
+}
+#laptop-empty p{
+  text-align: justify;
+}
+
+#laptop-empty {
+	margin-top: 5%;
+}
+#laptop-empty h1 {
+	color: #161C56;
+	/* padding-top: 28px; */
+	font-weight: bold;
+}
+
+
+
+/* -----------------Process Section----------------- */
+.boxes h1 {
+	color: #161C56;
+  font-weight: bold;
+}
+#process {
+	margin-top: 5%;
+}
+.boxes p {
+	margin-bottom: 5%;
+}
+.process-area img {
+	height: 50%;
+	padding-bottom: 19px;
+  margin: auto;
+display: block;
+}
+.process-area h3 {
+	text-align: center;
+  color: #161C56;
+  font-weight: bold;
+}
+.process-area p {
+	text-align: center;
+}
+.process-section {
+	transition: transform .2s;
+}
+.process-section:hover {
+	box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+	background-color: #f7f7f7;
+  transform: scale(1.1);
+} 
+
+
+/*----------------- Our Values Section -----------------*/
+#our-values {
+	margin-top: 5%;
+}
+#our-values img {
+	width: 90%;
+	height: 100%;
+}
+#our-values h1 {
+	color: #161C56;
+  padding-top: 10px;
+  font-weight: bold;
+}
+#our-values p{
+  text-align: justify;  
+}
+
+
+/*----------------- Mid Banner----------------- */
+#mid-banner {
+	margin-top: 6%;
+  
+}
+/* #mid-banner img {
+	max-width: 100%;
+} */
+.blue-img {
+	max-width: 100%;
+}
+.laptop-img {
+	position: relative;
+	margin-top: -25%;
+	width: 60%;
+	/* margin-right: 92%; */
+}
+.screen-img {
+	position: relative;
+	margin-top: -49%;
+  cursor: pointer;
+}
+.modal-content{
+  background: transparent !important;
+  border: none !important;
+}
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-body {
+position:relative;
+padding:0px;
+}
+.btn-close {
+position:absolute;
+right:-30px;
+top:0;
+}
+.embed-responsive-item {
+	width: 700px;
+	height: 500px;
+}
+ /* -----------------Charity Section----------------- */
+
+#charity {
+	margin-top: 5%;
+}
+ #charity img {
+	width: 90%;
+	height: 100%;
+}
+#charity h1 {
+	color: #161C56;
+  padding-top: 28px;
+  font-weight: bold;
+}
+#charity a {
+	color: #161C56;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+#charity p {
+	text-align: justify;
+}
+
+/*----------------- Contact US----------------- */
+.contact-us {
+	margin-top: 5%;
+}
+.buttonHolder {
+	text-align: center; 
+  padding-top: 10%;
+  padding-bottom: 4%;
+}
+#btn_i {
+	background-color: #161C56;
+	color: white;
+	border-radius: .25rem;
+	/* width: 82px; */
+	padding: 4px 30px;
+}
+#btn_i:hover {
+	opacity: 1;
+	background-color: white;
+	color: #161C56;
+  border-color: #161C56;
+}
+.form-control{
+ 
+  background-color: #EEECEC !important;
+}
+.form-floating {
+	color: gray !important;
+  padding: 10px !important;
+  
+}
+form {
+	padding: 35px;
+}
+
+.contact-us h1 {
+  color: #161C56;
+  font-weight: bold;
+}
+
+
+/*----------------- Footer----------------- */
+.footer-area {
+	background-color: black;
+  padding-left: 78px;
+  padding-right: 78px;
+  padding-top: 78px;
+}
+.social-icons {
+	border-bottom: 2px solid grey;
+	padding-bottom: 30px;
+}
+.footer-copyright {
+	padding: 33px 0px 3px;
+}
+.footer-copyright p {
+	color: white;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 4px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.social-icons a:hover{
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: red;
+  color: white;
+}
+.social-icons li {
+	list-style-type: none;
+	display: inline-block;
+}
+@media (max-width: 960px) and (min-width: 501px) {
+  .social-icons li { width: 50%; } /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
+}
+
+@media (max-width: 500px) {
+  .social-icons li { width: 100%; } /* On small screens, show one logo per row */
+}
+
+
+
+/*----------------- Testimonial Slider----------------- */
+.owl-carousel .owl-dots.disabled {
+	display: block !important;
+}
+.owl-dots .owl-dot.active {
+	background: #161C56 !important;
+}
+.owl-carousel .owl-item img {
+	/* display: block;
+	width: 17%;
+	float: left; */
+	/* border: 5px solid #fff; */
+	/* border-radius: 20px; */
+	margin-left: 36px;
+	/* margin-right: 35px; */
+	margin-top: 15px;
+}
+  .testimonial-item.equal-height.style-6 {
+    background-color: #eeeded;
+    border-radius: 2%;
+    margin: 1%;
+    
+  }
+  .slider-icon {
+    height: 91px;
+  }
+  
+  .testimonial-name {
+    font-weight: 600;
+    color: #161C56;
+  }
+  .cell-right {
+    padding-top: 22px;
+    position: absolute;
+    left: 23%;
+  }
+  
+  #main-content .container {
+    padding-top: 10px;
+  }
+  i.fa.fa-quote-left {
+    padding: 0px 10px;
+    color: grey;
+  }
+.testimonial-item {
+  float: left;
+}
+
+.testimonial-slider {
+	margin-top: 5%;
+  overflow: hidden;
+}
+#testimonial-slider{
+  margin-top: 3%;
+}
+.testimonial-slider h1 {
+	color: #161C56;
+	font-weight: bold;
+}
+.testimonial-date {
+  color: gray;
+}
+.testimonial-content.quote {
+	text-align: justify;
+}
+
+
+/* -----------------Scroll Top------------------------- */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #161C56;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: white;
+  color: #161C56;
+}
+
+
+/* -----------------Media Queries---------------------- */
+
+@media only screen and (max-width: 767px) {
+  .card-box {
+  margin-top: 30%;
+  padding-bottom: 0;
+  }
+  .card-box h1{
+    font-size: 40px;
+  }
+  .card-box p {
+    margin: 4px;
+  }
+  .btn-light:hover {
+    color: white !important;
+    background-color: #161C56;
+    /* border-color: none; */
+    /* color: white; */
+  }
+  #laptop-empty h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5%;
+  }
+  #laptop-empty p {
+  text-align: center;
+  margin: 4%;
+  }
+  .boxes h1 {
+    font-size: 40px;
+    margin-top: 14%;
+  }
+  .boxes p {
+    margin: 4%;
+  }
+  #testimonials p {
+    margin: 4%;
+  }
+  #our-values h1 {
+  text-align: center;
+  font-size: 40px;
+  }
+  #our-values p {
+    text-align: center;
+    margin: 5%;
+  }
+  #our-values img {
+  width: 100%;
+  height: 100%;
+  }
+  #charity p {
+  text-align: center;
+  margin: 2%;
+  }
+  .contact-us h1{
+    font-size: 40px;
+  }
+  #contact p {
+    margin: 3%;
+  }
+  #charity h1 {
+  text-align: center;
+  font-size: 40px;
+  }
+  #laptop-empty {
+  margin-top: 15%;
+  }
+  #laptop-empty img {
+  width: 100%;
+  height: 100%;
+  }
+  #charity {
+  margin-bottom: 15%;
+  }
+  #charity a {
+  justify-content: center;
+  text-align: center;
+  padding-left: 30px;
+  }
+  #charity img {
+  width: 100%;
+  height: 100%;
+  }
+  #mid-banner {
+    margin-top: 16%;
+    margin-bottom: 16%;
+  }
+  .screen-img {
+    width: 50%;
+  }
+  .embed-responsive-item {
+    /* width: 100px; */
+    width: 300px;
+    height: 200px;
+    /* padding: 50%; */
+    margin-left: 12%;
+  }
+  .cell-right {
+    /* padding-top: 22px; */
+    /* padding-right: 63px; */
+    /* margin-right: -25px; */
+    /* padding: 2%; */
+    position: absolute;
+    left: 42%;
+    /* top: -5%; */
+    margin-top: 6%;
+  }
+}
